@@ -1,0 +1,222 @@
+body {
+    background-color: rgba(0, 0, 0, 0.711);
+    padding: 0;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    height: 100%;
+    font-weight: 800;
+    font-family: Arial;
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 625px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.box::before{
+    content: ' ';
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background-image: conic-gradient(transparent, transparent, transparent, rgb(0, 34, 255));
+    animation: rotate 6s linear infinite;
+}
+
+.box::after{
+    content: ' ';
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background-image: conic-gradient(transparent, transparent, transparent, rgb(0, 34, 255));
+    animation: rotate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+.box span{
+    position: absolute;
+    inset:  6px;
+    border-radius: 20px;
+    background-color: #000000;
+    z-index: 2;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box_img{
+    position: relative;
+    width: 300px;
+    height: 550px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.box_img::before{
+    content: ' ';
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background-image: conic-gradient(transparent, transparent, transparent, rgb(255, 0, 0));
+    animation: rotate 6s linear infinite;
+}
+
+.box_img::after{
+    content: ' ';
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background-image: conic-gradient(transparent, transparent, transparent, #ff0000);
+    animation: rotate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+/* .box_img span{
+    position: absolute;
+    inset:  6px;
+    border-radius: 10px;
+    background-color: rgb(171, 150, 184);
+    z-index: 2;
+} */
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: rgb(255, 0, 0);
+    stroke-dasharray: 60% 60%;
+    stroke-width: 5px;
+    stroke-dashoffset: 10%;
+    animation: stroke-offset 2.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #00ff04;
+	animation-delay: -3;
+}
+
+.text-copy:nth-child(4){
+	stroke: #ffffff;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #00ff62;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -100%;}
+}
+
+.lice{
+    position: absolute;
+    top: 400px;
+    right: 100px;
+    width: 48%;
+    /* border: 2px solid #f00; */
+}
+
+.bloc_lice{
+    padding: 500px 132px;
+}
+
+.photo{
+    height: 10%;
+}
+/* картинка */
+.fon{
+    position: relative;
+    bottom: 9cm;
+    right: 21ch;
+    width: 70ch;
+    height: 70ch;
+}
+/* кнопки */
+a.but_a {
+    display: inline-block;
+    background: linear-gradient(to top left, rgb(0, 225, 255), rgb(255, 0, 0));
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 100;
+    position: relative;
+    top: 3.8cm;
+    left: 2.1cm;
+}
+
+a.but_b {
+    display: inline-block;
+    background: linear-gradient(to top left, rgb(23, 192, 215), rgb(255, 0, 0));
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: FF DIN;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 100;
+    position: relative;
+    top: 4.5cm;
+    left: 1.5cm;
+}
+
+a.but_c {
+    display: inline-block;
+    background: linear-gradient(to top left, rgb(23, 192, 215), rgb(255, 0, 0));
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: FF DIN;
+    font-size: 23px;
+    line-height: 1;
+    font-weight: 100;
+    position: relative;
+    top: 5.3cm;
+    left: 1.9cm;
+}
+
+.bat_m:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.bat_s:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.bat_y:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
