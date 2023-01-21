@@ -52,6 +52,8 @@
 
     <!-- форма -->
     <div class="ob_name">
+      var WebApp = window.Telegram.WebApp;
+      WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
       <h3 class="anc">Анкета</h3>
       <p class="names_n">Имя:<p class="input_n">|</p></p>
       <p class="names_v">Возраст:<p class="input_v">тут</p></p>
