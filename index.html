@@ -13,6 +13,40 @@
   <meta property="og:image" content="https://example.com/image.jpg">
   <meta property="og:url" content="https://example.com/">
 </head>
+  <style>
+    body{
+         color: var(--tg-theme-text-color);
+         background: var(--tg-theme-bg-color);
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         font-size: 18px;
+      }
+
+      .hint{
+         color: var(--tg-theme-hint-color);
+      }
+
+      .link{
+         color: var(--tg-theme-link-color);
+      }
+
+      .button{
+         background: var(--tg-theme-button-color);
+         color: var(--tg-theme-button-text-color);
+         border: none;
+         font-size: 18px;
+      }
+
+      .button:not(:last-child){
+         margin-bottom: 20px
+      }
+
+      #usercard{
+         text-align: center;
+      }
+   
+  </style>
 <body>
   <div id="usercard"> <!--Карта профиля, человека, который к нам обратился-->
     </div>
@@ -21,42 +55,5 @@
     <p class="hint">Some little hint</p> <!--Просто текст-подсказка для проверки-->
     <button id="btn" class="button">Show/Hide Main Button</button> <!--Кнопка, чтобы скрыть / показать основную кнопку-->
     <button id="btnED" class="button">Enable/Disable Main Button</button> <!--Кнопка, чтобы сделать кнопку активной/неактивной-->
-    let tg = window.Telegram.WebApp; //получаем объект webapp телеграма 
-
-    tg.expand(); //расширяем на все окно  
-
-    tg.MainButton.text = "Changed Text"; //изменяем текст кнопки 
-    tg.MainButton.setText("Changed Text1"); //изменяем текст кнопки иначе
-    tg.MainButton.textColor = "#F55353"; //изменяем цвет текста кнопки
-    tg.MainButton.color = "#143F6B"; //изменяем цвет бэкграунда кнопки
-    tg.MainButton.setParams({"color": "#143F6B"}); //так изменяются все параметры 
-  <div class="box">
-    <span>
-      <!-- название -->
-      <div class="container">
-        <svg viewBox="10 400 2000 900">
-          <symbol id="s-text">
-            <text text-anchor="Meeting new people" x="9%" y="90%">Meeting new people</text>
-          </symbol>
-          <g class = "g-ants">
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-          </g>
-        </svg>
-      </div>
-      <!-- фото -->
-      <div class="photo">
-        <img class="fon" src="2.png">
-      </div>
-      <!-- кнопки  -->
-      <div class="buttons">
-        <div class="bat_m"><a class="but_a" href="str_1.html">Моя анкета</a></div>
-        <div class="bat_s"><a class="but_b" href="#">Смотреть анкеты</a></div>
-        <div class="bat_y"><a class="but_c" href="#">удалить анкету</a></div>
-      </div>
-    </span>
   </body>
 </html>
