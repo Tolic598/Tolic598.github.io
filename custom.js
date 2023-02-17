@@ -10,3 +10,4 @@ usercard.appendChild(profName); //добавляем
 let userid = document.createElement('p'); //создаем еще параграф 
 userid.innerText = `${tg.initDataUnsafe.user.id}`; //показываем user_id
 usercard.appendChild(userid); //добавляем
+alert("Привет!");
