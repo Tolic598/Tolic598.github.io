@@ -7,6 +7,23 @@ tg.MainButton.color = "#2cab37";
 
 let item = "";
 
+
+let wallet1 = document.getElementById("wallet1");
+let exchanger1 = document.getElementById("exchanger1");
+let well1 = document.getElementById("well1");
+let info1 = document.getElementById("info1");
+
+wallet1.addEventListener("click", function(){
+	if (tg.MainButton.isVisible) {
+		tg.MainButton.hide();
+	}
+	else {
+		tg.MainButton.setText("Вы выбрали товар 1!");
+		item = "1";
+		tg.MainButton.show();
+	}
+});
+
 let btn1 = document.getElementById("btn1");
 let btn2 = document.getElementById("btn2");
 let btn3 = document.getElementById("btn3");
