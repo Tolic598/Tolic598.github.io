@@ -25,7 +25,7 @@ btnED.addEventListener('click', function(){ //вешаем событие на �
 	}
 	else{ //иначе
 		tg.MainButton.setParams({"color": "#143F6B"}); //меняем цвет
-		tg.MainButton.enable() //показываем 
+		tg.MainButton.enable() //показываем
 	}
 });
 
