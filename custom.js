@@ -4,7 +4,7 @@ tg.expand(); //расширяем на все окно
 
 tg.MainButton.text = "Changed Text"; //изменяем текст кнопки 
 tg.MainButton.setText("Changed Text1"); //изменяем текст кнопки иначе
-tg.MainButton.textColor = "#f50505"; //изменяем цвет текста кнопки
+tg.MainButton.textColor = "#F55353"; //изменяем цвет текста кнопки
 tg.MainButton.color = "#143F6B"; //изменяем цвет бэкграунда кнопки
 tg.MainButton.setParams({"color": "#143F6B"}); //так изменяются все параметры 
 
@@ -33,48 +33,3 @@ Telegram.WebApp.onEvent('mainButtonClicked', function(){
 	tg.sendData("some string that we need to send"); 
 	//при клике на основную кнопку отправляем данные в строковом виде
 });
-
-let usercard = document.getElementById("usercard"); //получаем блок usercard 
-
-let profName = document.createElement('p'); //создаем параграф
-profName.innerText = `${tg.initDataUnsafe.user.first_name}
-${tg.initDataUnsafe.user.last_name}
-${tg.initDataUnsafe.user.username} (${tg.initDataUnsafe.user.language_code})`;
-//выдем имя, "фамилию", через тире username и код языка
-usercard.appendChild(profName); //добавляем 
-
-let userid = document.createElement('p'); //создаем еще параграф 
-userid.innerText = `${tg.initDataUnsafe.user.id}`; //показываем user_id
-usercard.appendChild(userid); //добавляем
-
-body{
-	color: var(--tg-theme-text-color);
-	background: var(--tg-theme-bg-color);
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	font-size: 18px;
-}
-
-.hint{
-	color: var(--tg-theme-hint-color);
-}
-
-.link{
-	color: var(--tg-theme-link-color);
-}
-
-.button{
-	background: var(--tg-theme-button-color);
-	color: var(--tg-theme-button-text-color);
-	border: none;
-	font-size: 18px;
-}
-
-.button:not(:last-child){
-	margin-bottom: 20px
-}
-
-#usercard{
-	text-align: center;
-}
