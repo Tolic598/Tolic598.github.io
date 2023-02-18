@@ -34,16 +34,14 @@ body {
 }
 
 .gl_wallet {
-	text-align: center;
-}
-
-/* .inner {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 200px 200px 200px;
-} */
+}
 
-
+.gl_exchanger {
+	text-align: center;
+}
 
 
 .usercard {
