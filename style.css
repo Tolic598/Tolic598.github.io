@@ -2,6 +2,8 @@ body {
 	border-style: dotted;
 	height: 560px;
 	width: 560px;
+	background-color: rgb(70, 67, 67);
+	color: #fff;
 	/* margin: 0;
 	padding: 0;
 	font-size: 18px;
@@ -86,69 +88,91 @@ body {
 
 .UAH{
 	position: absolute;
-	left: 30%;
+	left: 32%;
 }
 
 #UAH{
 	position: absolute;
-	left: 310px;
+	left: 225px;
 }
 
 .XRP{
 	position: absolute;
-	left: 40%;
+	left: 42%;
 }
 
 #XRP{
 	position: absolute;
-	left: 395px;
-}
-
-.XRP{
-	position: absolute;
-	left: 40%;
-}
-
-#XRP{
-	position: absolute;
-	left: 395px;
+	left: 280px;
 }
 
 .MINA{
 	position: absolute;
-	left: 50%;
+	left: 52%;
 }
 
 #MINA{
 	position: absolute;
-	left: 395px;
+	left: 350px;
 }
 
 .ASTR{
 	position: absolute;
-	left: 0%;
+	left: 64%;
 }
 
 #ASTR{
 	position: absolute;
-	left: 395px;
+	left: 420px;
 }
 
 .APT{
 	position: absolute;
-	left: 0%;
+	left: 76%;
 }
 
 #APT{
 	position: absolute;
-	left: 395px;
+	left: 475px;
 }
 
-/* @keyframes slidein {
+.BSW{
+	position: absolute;
+	left: 85%;
+}
+
+#BSW{
+	position: absolute;
+	left: 530px;
+}
+
+.BSW{
+	position: absolute;
+	left: 85%;
+}
+
+#BSW{
+	position: absolute;
+	left: 530px;
+}
+
+
+.HFT{
+	position: absolute;
+	left: 95%;
+}
+
+#HFT{
+	position: absolute;
+	left: 560px;
+}
+
+
+@keyframes slidein {
 	from {
 	  -webkit-transform: rotate(0deg) translateX(101%) rotate(0deg);
 	}
 	to {
 	  -webkit-transform: rotate(0deg) translateX(-101%) rotate(0deg);
 	}
-} */
+}
