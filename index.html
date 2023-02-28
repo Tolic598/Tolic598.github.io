@@ -4,28 +4,56 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>Document</title>
+	<title>Обменник</title>
 </head>
 <body>
-	<div class="container">
+    <div class="nav">
         <div class = "gl_wallet">
-            <button class="menu" id="wallet1">Кошелёк</button>
+            <div class="wal1">
+                <p class="BTC">BTC:</p><p id = "BTC"></p>
+                <p class="ETH">ETH:</p><p id = "ETH"></p>
+                <p class="USDT">USDT:</p><p id = "USDT"></p>
+                <p class="UAH">UAH:</p><p id = "UAH"></p>
+                <p class="XRP">XRP:</p><p id = "XRP"></p>
+                <p class="MINA">MINA:</p><p id = "MINA"></p>
+                <!-- <p class="ASTR">ASTR:</p><p id = "ASTR"></p>
+                <p class="APT">APT:</p><p  id = "APT"></p> -->
+                <!-- <p class="wal">BSW</p><p  id = "BSW">:</p>
+                <p class="wal">HFT</p><p  id = "HFT">:</p>
+                <p class="wal">CAKE</p><p  id = "CAKE">:</p>
+                <p class="wal">FLOW</p><p  id = "FLOW">:</p>
+                <p class="LDO">LDO</p><p  id = "LDO">:</p>
+                <p class="HOOK">HOOK</p><p  id = "HOOK">:</p>
+                <p class="TWT">TWT</p><p  id = "TWT">:</p>
+                <p class="DASH">DASH</p><p  id = "DASH">:</p>
+                <p class="NEAR">NEAR</p><p  id = "NEAR">:</p>
+                <p class="DYDX">DYDX</p><p  id = "DYDX">:</p>
+                <p class="INCH">INCH</p><p  id = "INCH">:</p>
+                <p class="OP">OP</p><p  id = "OP">:</p> -->
+            </div>
         </div>
+    </div>
 
-        <div class = "gl_exchanger">
-            <button class="menu" id="exchanger1">Обменник</button>
-        </div>
+    <div class="container">
+        <a href="wallet.html"><button class="menu" id="wallet1">Кошелёк</button></a>
+    </div>
 
-        <div class = "gl_well">
-            <button class="menu" id="well1">Курс</button>
-        </div>
+    <div class = "gl_exchanger">
+        <a href="exchanger.html"></a><button class="menu" id="exchanger1">Обменник</button></a>
+    </div>
 
-        <div class = "gl_info">
-            <button class="menu" id="info1">Информация</button>
-        </div>
-	<div class="usercard" id="usercard"></div>
-	
-	<script src="https://telegram.org/js/telegram-web-app.js"></script>
-	<script src="App.js"></script>
+    <div class = "gl_well">
+        <a href="well.html"></a><button class="menu" id="well1">Курс</button></a>
+    </div>
+
+    <div class = "gl_info">
+        <a href="info.html"><button class="menu" id="info1">Информация</button></a>
+    </div>
+
+    <div class="usercard" id="usercard"></div>
+    
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="App.js"></script>
+    <script src="wallet.js"></script>
 </body>
 </html>
