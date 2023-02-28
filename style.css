@@ -22,27 +22,28 @@ body {
 	font-weight: 700;
 }
 
-.container {
-	text-align: center;
-	margin: 5%;
-}
-
 .menu:hover {
 	background: lightgreen;
 }
 
-.gl_exchanger {
-	text-align: center;
+.gl_well {
+	position: absolute;
+	top: 10%;
+	left: 39%;
 	margin: 5%;
 }
 
-.gl_well {
-	text-align: center;
+.gl_exchanger {
+	position: absolute;
+	top: 20%;
+	left: 35%;
 	margin: 5%;
 }
 
 .gl_info {
-	text-align: center;
+	position: absolute;
+	top: 30%;
+	left: 33%;
 	margin: 5%;
 }
 
@@ -53,7 +54,7 @@ body {
 
 .wal1{
     display: flex;
-    animation: 40s ease-in 1s infinite reverse both running slidein;
+	animation: 20s linear 1s infinite running slidein;
 }
 
 .BTC{
@@ -63,7 +64,7 @@ body {
 
 #BTC{
 	position: absolute;
-	left: 40px;
+	left: 35px;
 }
 
 .ETH{
@@ -83,7 +84,7 @@ body {
 
 #USDT{
 	position: absolute;
-	left: 165px;
+	left: 160px;
 }
 
 .UAH{
@@ -93,7 +94,7 @@ body {
 
 #UAH{
 	position: absolute;
-	left: 225px;
+	left: 220px;
 }
 
 .XRP{
@@ -103,7 +104,7 @@ body {
 
 #XRP{
 	position: absolute;
-	left: 280px;
+	left: 275px;
 }
 
 .MINA{
@@ -113,7 +114,7 @@ body {
 
 #MINA{
 	position: absolute;
-	left: 350px;
+	left: 340px;
 }
 
 .ASTR{
@@ -123,7 +124,7 @@ body {
 
 #ASTR{
 	position: absolute;
-	left: 420px;
+	left: 405px;
 }
 
 .APT{
@@ -133,7 +134,7 @@ body {
 
 #APT{
 	position: absolute;
-	left: 475px;
+	left: 460px;
 }
 
 .BSW{
@@ -143,19 +144,8 @@ body {
 
 #BSW{
 	position: absolute;
-	left: 530px;
+	left: 515px;
 }
-
-.BSW{
-	position: absolute;
-	left: 85%;
-}
-
-#BSW{
-	position: absolute;
-	left: 530px;
-}
-
 
 .HFT{
 	position: absolute;
@@ -164,15 +154,124 @@ body {
 
 #HFT{
 	position: absolute;
-	left: 560px;
+	left: 570px;
 }
 
+.CAKE{
+	position: absolute;
+	left: 105%;
+}
+
+#CAKE{
+	position: absolute;
+	left: 640px;
+}
+
+.FLOW{
+	position: absolute;
+	left: 120%;
+}
+
+#FLOW{
+	position: absolute;
+	left: 725px;
+}
+
+.LDO{
+	position: absolute;
+	left: 135%;
+}
+
+#LDO{
+	position: absolute;
+	left: 800px;
+}
+
+.HOOK{
+	position: absolute;
+	left: 150%;
+}
+
+#HOOK{
+	position: absolute;
+	left: 900px;
+}
+
+.TWT{
+	position: absolute;
+	left: 165%;
+}
+
+#TWT{
+	position: absolute;
+	left: 965px;
+}
+
+.DASH{
+	position: absolute;
+	left: 175%;
+}
+
+#DASH{
+	position: absolute;
+	left: 1030px;
+}
+
+.DASH{
+	position: absolute;
+	left: 175%;
+}
+
+#DASH{
+	position: absolute;
+	left: 1030px;
+}
+
+.NEAR{
+	position: absolute;
+	left: 188%;
+}
+
+#NEAR{
+	position: absolute;
+	left: 1105px;
+}
+
+.DYDX{
+	position: absolute;
+	left: 200%;
+}
+
+#DYDX{
+	position: absolute;
+	left: 1175px;
+}
+
+.INCH{
+	position: absolute;
+	left: 214%;
+}
+
+#INCH{
+	position: absolute;
+	left: 1245px;
+}
+
+.OP{
+	position: absolute;
+	left: 225%;
+}
+
+#OP{
+	position: absolute;
+	left: 1285px;
+}
 
 @keyframes slidein {
 	from {
-	  -webkit-transform: rotate(0deg) translateX(101%) rotate(0deg);
+	  -webkit-transform: rotate(0deg) translateX(-235%) rotate(0deg);
 	}
 	to {
-	  -webkit-transform: rotate(0deg) translateX(-101%) rotate(0deg);
+	  -webkit-transform: rotate(0deg) translateX(100%) rotate(0deg);
 	}
 }
