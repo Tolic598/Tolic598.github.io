@@ -6,10 +6,6 @@ body {
 	background: var(--tg-theme-bg-color);
 }
 
-.container {
-	max-width: 390px;
-}
-
 .menu {
 	display: inline-block;
 	padding: 10px 20px;
@@ -19,17 +15,15 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
+}
 
-	transition: background .2s linear;
+.container {
+	text-align: center;
+	margin: 5%;
 }
 
 .menu:hover {
 	background: lightgreen;
-}
-
-.gl_wallet{
-	text-align: center;
-	margin: 5%;
 }
 
 .gl_exchanger {
@@ -50,4 +44,107 @@ body {
 .usercard {
 	text-align: center;
 	margin: 5%;
-} 
+}
+
+.wal1{
+    display: flex;
+    animation: 40s ease-in 1s infinite reverse both running slidein;
+}
+
+.BTC{
+	position: absolute;
+	left: 0%;
+}
+#BTC{
+	position: absolute;
+	left: 45px;
+}
+
+.ETH{
+	position: absolute;
+	left: 10%;
+}
+
+#ETH{
+	position: absolute;
+	left: 130px;
+}
+
+.USDT{
+	position: absolute;
+	left: 20%;
+}
+
+#USDT{
+	position: absolute;
+	left: 230px;
+}
+
+.UAH{
+	position: absolute;
+	left: 30%;
+}
+
+#UAH{
+	position: absolute;
+	left: 310px;
+}
+
+.XRP{
+	position: absolute;
+	left: 40%;
+}
+
+#XRP{
+	position: absolute;
+	left: 395px;
+}
+
+.XRP{
+	position: absolute;
+	left: 40%;
+}
+
+#XRP{
+	position: absolute;
+	left: 395px;
+}
+
+.MINA{
+	position: absolute;
+	left: 50%;
+}
+
+#MINA{
+	position: absolute;
+	left: 395px;
+}
+
+.ASTR{
+	position: absolute;
+	left: 0%;
+}
+
+#ASTR{
+	position: absolute;
+	left: 395px;
+}
+
+.APT{
+	position: absolute;
+	left: 0%;
+}
+
+#APT{
+	position: absolute;
+	left: 395px;
+}
+
+/* @keyframes slidein {
+	from {
+	  -webkit-transform: rotate(0deg) translateX(101%) rotate(0deg);
+	}
+	to {
+	  -webkit-transform: rotate(0deg) translateX(-101%) rotate(0deg);
+	}
+} */
