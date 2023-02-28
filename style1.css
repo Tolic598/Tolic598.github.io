@@ -1,0 +1,61 @@
+body {
+	border-style: dotted;
+	height: 560px;
+	width: 560px;
+	background-color: rgb(70, 67, 67);
+	color: #fff;
+}
+
+.line_1{
+    width: 1px;
+    height: 560px;
+    position: absolute;
+	left: 25%;
+    top: 0%;
+}
+
+.line_2{
+    width: 1px;
+    height: 560px;
+    position: absolute;
+	left: 65%;
+    top: 0%;
+}
+
+.line_3{
+    width: 560px;
+    height: 1px;
+    position: absolute;
+	left: 1%;
+    top: 5%;
+}
+
+.wal{
+    position: absolute;
+	left: 0%;
+    top: 0%;
+}
+
+.purchase{
+    position: absolute;
+	left: 40%;
+    top: 0%;
+}
+
+.sale{
+    position: absolute;
+	left: 80%;
+    top: 0%;
+}
+
+.BTC{
+	position: absolute;
+	left: 0%;
+    top: 10%;
+}
+
+#BTC{
+	position: absolute;
+	left: 35px;
+    top: 10%;
+}
