@@ -220,7 +220,7 @@ if (sessionStorage.getItem("autosave_9")) {
 }
 
 field_9.addEventListener("change", () => {
-  sessionStorage.setItem("autosave_9", field_5.value);
+  sessionStorage.setItem("autosave_9", field_9.value);
 });
 
 document.addEventListener("DOMContentLoaded", function() {
