@@ -271,6 +271,21 @@
   z-index: 3;
 }
 
+.draggable{
+  position: absolute;
+
+  width: 110px;
+  height: 70px;
+
+  z-index: 5;
+  
+}
+
+.active{
+  background-color: #DAA520;
+  border: 3px solid rgb(42, 56, 24);
+}
+
 .m_1{
   position: absolute;
 

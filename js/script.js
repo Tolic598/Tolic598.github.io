@@ -68,34 +68,51 @@
 
 
 
-$( function() {
-  $("#drag_1").draggable();
-} );
+// $( function() {
+//   $("#drag_1").draggable();
+// } );
 
-$( function() {
-  $("#drag_2").draggable();
-} );
+// $( function() {
+//   $("#drag_2").draggable();
+// } );
 
-$( function() {
-  $("#drag_3").draggable();
-} );
+// $( function() {
+//   $("#drag_3").draggable();
+// } );
 
-$( function() {
-  $("#drag_4").draggable();
-} );
+// $( function() {
+//   $("#drag_4").draggable();
+// } );
 
-$( function() {
-  $("#drag_5").draggable();
-} );
+// $( function() {
+//   $("#drag_5").draggable();
+// } );
 
-$( function() {
-  $("#drag_6").draggable();
-} );
+// $( function() {
+//   $("#drag_6").draggable();
+// } );
 
-$( function() {
-  $("#drag_7").draggable();
-} );
+// $( function() {
+//   $("#drag_7").draggable();
+// } );
 
-$( function() {
-  $("#drag_8").draggable();
-} );
+// $( function() {
+//   $("#drag_8").draggable();
+// } );
+
+$(function() {
+  $(".draggable").draggable({
+    start: function() {
+      // Удаляем класс активного состояния со всех элементов, кроме текущего
+      $(".draggable").not(this).removeClass("active");
+      // Устанавливаем класс активного состояния для начала подсветки текущего элемента
+      $(this).addClass("active");
+    },
+    drag: function() {
+      // Ничего не делаем во время перетаскивания, чтобы подсветка оставалась
+    }
+  });
+});
+
+
+

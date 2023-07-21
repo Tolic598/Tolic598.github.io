@@ -419,7 +419,7 @@ body {
     top: 23%;
 
     width: 220px;
-    height: 62.45px;
+    height: 210px;
 
     background: #FFC0CB;
     border: 3px solid #000000;
@@ -428,16 +428,16 @@ body {
 .vp_2{
     position: absolute;
     left: 92%;
-    top: 7%;
+    top: 3%;
 
-    width: 60px;
-    height: 85.25px;
+    width: 41px;
+    height: 109px;
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 800;
-    font-size: 60px;
-    line-height: 82px;
+    font-size: 80px;
+    line-height: 109px;
 
     color: #000000;
     z-index: 2;
@@ -475,7 +475,7 @@ body {
     top: 36%;
 
     width: 220px;
-    height: 62.45px;
+    height: 210px;
 
     background: #E54242;
     border: 3px solid #000000;
@@ -484,7 +484,7 @@ body {
 
 .revol_img_3{
     position: absolute;
-    top: 36%;
+    top: 38%;
     left: 91%;
 
     width: 80px;
@@ -527,7 +527,7 @@ body {
     top: 48%;
 
     width: 220px;
-    height: 62.45px;
+    height: 122px;
 
     background: #62FD84;
     border: 3px solid #000000;
@@ -535,8 +535,8 @@ body {
 
 .gar_img{
     position: absolute;
-    top: 49%;
-    left: 91%;
+    top: 52%;
+    left: 91.5%;
 
     width: 60px;
     height: 48.03px;
@@ -599,10 +599,10 @@ body {
 
     position: absolute;
     left: 87.5%;
-    top: 66.5%;
+    top: 61%;
 
     width: 220px;
-    height: 63.95px;
+    height: 210px;
 
     background: #38854E;
     border: 3px solid #000000;
@@ -610,8 +610,8 @@ body {
 
 .jackpot_img_4{
     position: absolute;
-    top: 67%;
-    left: 91%;
+    top: 64%;
+    left: 91.5%;
 
     width: 60px;
     height: 48.03px;
@@ -1075,10 +1075,10 @@ hr{
     box-sizing: border-box;
 
     position: absolute;
-    top: 66.5%;
+    top: 60.3%;
 
     width: 220px;
-    height: 63.1px;
+    height: 120px;
 
     background:#E54242;
     border: 3px solid #000000;
@@ -1086,11 +1086,11 @@ hr{
 
 .revol_img_7{
     position: absolute;
-    top: 66%;
+    top: 63%;
     left: 4%;
 
-    width: 80px;
-    height: 80px;
+    width: 85px;
+    height: 85px;
 
     transform: rotate(-48deg);
 
@@ -1151,10 +1151,10 @@ hr{
     box-sizing: border-box;
 
     position: absolute;
-    top: 47%;
+    top: 47.5%;
 
     width: 220px;
-    height: 63.1px;
+    height: 126px;
 
     background: #62FD84;
     border: 3px solid #000000;
@@ -1162,8 +1162,8 @@ hr{
 
 .gar_img_2{
     position: absolute;
-    top: 48%;
-    left: 4%;
+    top: 52%;
+    left: 4.5%;
 
     width: 60px;
     height: 48.03px;
@@ -1202,7 +1202,7 @@ hr{
     top: 35%;
 
     width: 220px;
-    height: 63.1px;
+    height: 122px;
     
     background:#E54242;
     border: 3px solid #000000;
@@ -1210,7 +1210,7 @@ hr{
 
 .revol_img_9{
     position: absolute;
-    top: 35%;
+    top: 38%;
     left: 4%;
 
     width: 80px;
@@ -1252,7 +1252,7 @@ hr{
     top: 23%;
 
     width: 220px;
-    height: 63.1px;
+    height: 120px;
     
     background: #EF0AF3;
     border: 3px solid #000000;
@@ -1260,7 +1260,7 @@ hr{
 
 .fish-b_4{
     position: absolute;
-    top: 23.5%;
+    top: 27%;
     left: 4%;
 
     width: 60px;
@@ -1627,4 +1627,43 @@ hr{
     background-clip: text;
 }
 
+.raund{
+    position: absolute;
+    top: 30%;
+    left: 68%;
 
+    width: 263px;
+    height: 50px;
+
+    background: #ffc79a;
+    border-radius: 10px;
+    
+    z-index: 2;
+
+    outline: none;
+}
+
+.raund_text {
+    position: absolute;
+    top: -25px;
+    left: 70px;
+
+    font-weight: bold;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.message {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+    display: none;
+}

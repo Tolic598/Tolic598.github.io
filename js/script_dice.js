@@ -14,8 +14,5 @@ if (diceOne === i) {
 }
 }
 
-setTimeout(rollDice(), 2000);
+// setTimeout(rollDice(), 2000);
 }
-
-
-

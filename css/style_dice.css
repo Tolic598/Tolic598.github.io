@@ -1,10 +1,27 @@
 .go{
     position: absolute;
-    top: 40%;
-    left: 42%;
+    top: 400px;
+    left: 820px;
 
     width: 263px;
-    height: 109px;
+    height: 80px;
+
+    background: linear-gradient(100.69deg, #636fa0 -1.07%, #AF4357 103.65%);
+    border-radius: 55.5px;
+    
+    z-index: 2;
+
+    outline: none;
+    transition: .1s;
+}
+
+.sc{
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+
+    width: 263px;
+    height: 80px;
 
     background: linear-gradient(100.69deg, #636fa0 -1.07%, #AF4357 103.65%);
     border-radius: 55.5px;
@@ -17,7 +34,7 @@
 
 .go_1{
     position: absolute;
-    top: -10%;
+    top: -30%;
     left: 22%;
 
     width: 152px;
@@ -27,6 +44,28 @@
     font-style: normal;
     font-weight: 800;
     font-size: 40px;
+    line-height: 54px;
+
+    color: #FFFFFF;
+
+    z-index: 3;
+
+    outline: none;
+    transition: .1s;
+}
+
+.sc_1{
+    position: absolute;
+    top: -23%;
+    left: 8%;
+    
+    width: 152px;
+    height: 54px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
     line-height: 54px;
 
     color: #FFFFFF;
@@ -65,7 +104,7 @@ button:hover, button:active {
     height: 100px;
 
     transform-style: preserve-3d;
-    transition: transform 8s; 
+    transition: transform 5s; 
 }
 
 .dot {
@@ -193,4 +232,8 @@ button:hover, button:active {
     left: 39%;
     top: 35%;
     z-index: 10;
+}
+
+.dice_g.show {
+    transition: none; /* Отключаем переход для показа выбранного числа */
 }

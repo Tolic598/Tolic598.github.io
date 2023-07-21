@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style_dice.css">
     <link rel="stylesheet" href="css/style_user.css">
-
+    <!-- <link rel="stylesheet" href="css/style_coloso.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -28,13 +28,11 @@
     <div class="bloc yellow_1"></div><img src="img/fish.png" class="fish_img_1">
     <div class="bloc violet_3"></div><img src="img/fish-b.png" class="fish-b_1">
     <div class="bloc blue_1"></div><img src="img/rup.png" class="rup_img_1">
+
     <div class="bloc pink_2"></div><h6 class="vp_2">?</h6>
-    <div class="bloc green_2"></div><img src="img/jackpot.png" class="jackpot_img_2">
+
     <div class="bloc red_3"></div><img src="img/revol.png" class="revol_img_3">
-    <div class="bloc green_3"></div><img src="img/jackpot.png" class="jackpot_img_3">
     <div class="bloc light_green"></div><img src="img/gar.png" class="gar_img">
-    <div class="bloc yellow_2"></div><img src="img/fish.png" class="fish_img_2">
-    <div class="bloc red_4"></div><img src="img/revol.png" class="revol_img_4">
     <div class="bloc green_4"></div><img src="img/jackpot.png" class="jackpot_img_4">
     <div class="bloc pink_3"></div><h6 class="vp_3">?</h6>
     <div class="bloc violet_4"></div><img src="img/bon.png" class="bon_img_2">
@@ -51,13 +49,11 @@
     <div class="bloc blue_4"></div><img src="img/list.png" class="list_1">
     <div class="bloc yellow_3"></div><img src="img/fish.png" class="fish_img_3">
     <div class="bloc green_7"></div><img src="img/cub.png" class="cub"><img src="img/fin.png" class="fin"><h4 class="text_1">Старт</h4><hr><h4 class="text_2">Финиш</h4>
+
     <div class="bloc red_7"></div></div><img src="img/revol.png" class="revol_img_7">
-    <div class="bloc green_8"></div></div><img src="img/jackpot.png" class="jackpot_img_7">
-    <div class="bloc red_8"></div><img src="img/revol.png" class="revol_img_8">
+
     <div class="bloc light_green_2"></div><img src="img/gar.png" class="gar_img_2">
-    <div class="bloc violet_6"></div><img src="img/fish-b.png" class="fish-b_3">
     <div class="bloc red_9"></div><img src="img/revol.png" class="revol_img_9">
-    <div class="bloc green_9"></div><img src="img/jackpot.png" class="jackpot_img_8">
     <div class="bloc violet_7"></div><img src="img/fish-b.png" class="fish-b_4">
 
     <img src="img/LOGOOO.png" class="logo_1">
@@ -164,12 +160,12 @@
     <img src="img/m_4.png" class="mf_4" id="drag_8">
 
     <button class="go" id='roll'><h2 class="go_1">Играть</h2></button>
+    <!-- <button class="sc" id='scip'><h2 class="sc_1">Пропустить</h2></button> -->
 
-
-    <img src="img/m_1.png" class="m_1" id="drag_1">
-    <img src="img/m_2.png" class="m_2" id="drag_2">
-    <img src="img/m_3.png" class="m_3" id="drag_3">
-    <img src="img/m_4.png" class="m_4" id="drag_4">
+    <img src="img/m_1.png" class="draggable" id="drag_1">
+    <img src="img/m_2.png" class="draggable" id="drag_2">
+    <img src="img/m_3.png" class="draggable" id="drag_3">
+    <img src="img/m_4.png" class="draggable" id="drag_4">
 
     <div class="dice_g" id="di1">
         <div class="game">
@@ -213,14 +209,35 @@
         </div>
     </div>
 
+    <!-- <div class="raund">
+        <p class="raund_text">round 0</p>
+    </div>
+    <div class="message" id="turnMessage">Не твой ход</div> -->
+
     <script type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js'></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/script_coloso.js"></script>
     <script src="js/script.js"></script>
     <script src="js/script_dice.js"></script>
     <script src="js/script_user.js"></script>
+
+    <script src="js/script_scip.js"></script>
     
 </body>
 </html>
+
+ <!-- <div class="bloc green_2"></div><img src="img/jackpot.png" class="jackpot_img_2"> -->
+    <!-- <div class="bloc green_3"></div><img src="img/jackpot.png" class="jackpot_img_3"> -->
+    <!-- <div class="bloc yellow_2"></div><img src="img/fish.png" class="fish_img_2"> -->
+    <!-- <div class="bloc red_4"></div><img src="img/revol.png" class="revol_img_4"> -->
+    <!-- <div class="bloc green_8"></div></div><img src="img/jackpot.png" class="jackpot_img_7"> -->
+    <!-- <div class="bloc red_8"></div><img src="img/revol.png" class="revol_img_8"> -->
+    <!-- <div class="bloc violet_6"></div><img src="img/fish-b.png" class="fish-b_3"> -->
+    <!-- <div class="bloc green_9"></div><img src="img/jackpot.png" class="jackpot_img_8"> -->
+    <!-- <img src="img/m_1.png" class="m_1" id="drag_1">
+    <img src="img/m_2.png" class="m_2" id="drag_2">
+    <img src="img/m_3.png" class="m_3" id="drag_3">
+    <img src="img/m_4.png" class="m_4" id="drag_4"> -->
