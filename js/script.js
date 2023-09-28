@@ -84,21 +84,21 @@
 //   $("#drag_4").draggable();
 // } );
 
-// $( function() {
-//   $("#drag_5").draggable();
-// } );
+$( function() {
+  $("#drag_5").draggable();
+} );
 
-// $( function() {
-//   $("#drag_6").draggable();
-// } );
+$( function() {
+  $("#drag_6").draggable();
+} );
 
-// $( function() {
-//   $("#drag_7").draggable();
-// } );
+$( function() {
+  $("#drag_7").draggable();
+} );
 
-// $( function() {
-//   $("#drag_8").draggable();
-// } );
+$( function() {
+  $("#drag_8").draggable();
+} );
 
 $(function() {
   $(".draggable").draggable({
