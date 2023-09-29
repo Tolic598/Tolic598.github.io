@@ -229,11 +229,167 @@ button:hover, button:active {
 
 .dice_g{
     position: absolute;
-    left: 39%;
-    top: 35%;
+    left: 31%;
+    top: 39%;
     z-index: 10;
 }
 
 .dice_g.show {
+    transition: none; /* Отключаем переход для показа выбранного числа */
+}
+
+/* кубик 2 */
+.game_2 {
+    position: relative;
+
+    width: auto;
+    height: 100%; 
+}
+
+.container_2 {
+    position: relative;
+
+    display: inline-block;
+    top: 195px;
+}
+
+.dice_2 {
+    position: relative;
+
+    width: 100px;
+    height: 100px;
+
+    transform-style: preserve-3d;
+    transition: transform 5s; 
+}
+
+.dot_2 {
+    position: absolute;
+
+    width: 20px;
+    height: 20px;
+
+    margin: -10px 5px 5px -10px;
+    border-radius: 20px;
+
+    background-color: #f25f5c;
+    box-shadow: inset 2px 2px #d90429;
+}
+
+.dice-one_2 {
+    position: absolute;
+    left: 470px; 
+}
+
+.dice-two_2 {
+    position: absolute;
+    left: -50px;
+}
+
+.side_2 {
+    position: absolute;
+
+    background-color: #ffF;
+    border-radius:5px;
+
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    line-height: 2em;
+}
+
+.side_2:nth-child(1) {
+    transform: translateZ(3.1em); 
+}
+
+.side_2:nth-child(6) {
+    transform: rotateY(90deg) translateZ(3.1em); 
+}
+
+.side_2:nth-child(3) {
+    transform: rotateY(-90deg) translateZ(3.1em); 
+}
+
+.side_2:nth-child(4) {
+    transform: rotateX(90deg) translateZ(3.1em); 
+}
+
+.side_2:nth-child(5) {
+    transform: rotateX(-90deg) translateZ(3.1em); 
+}
+
+.side_2:nth-child(2) {
+    transform: rotateY(-180deg) translateZ(3.1em); 
+}
+
+.show-1_2 {
+    transform: rotateX(720deg) rotateZ(-720deg); 
+}
+
+.show-6_2 {
+    transform: rotateX(-900deg) rotateZ(1080deg); 
+}
+
+.show-3_2 {
+    transform: rotateY(-450deg) rotateZ(-1440deg); 
+}
+
+.show-4_2 {
+    transform: rotateY(810deg) rotateZ(720deg); 
+}
+
+.show-5_2 {
+    transform: rotateX(-810deg) rotateZ(-1080deg); 
+}
+
+.show-2_2 {
+    transform: rotateX(450deg) rotateZ(-720deg); 
+}
+
+.two-1_2, .three-1_2, .four-1_2, .five-1_2, .six-1_2 {
+    top: 20%;
+    left: 20%; 
+}
+
+.four-3_2, .five-3_2, .six-4_2 {
+    top: 20%;
+    left: 80%; 
+}
+
+.one-1_2, .three-2_2, .five-5_2 {
+    top: 50%;
+    left: 50%; 
+}
+
+.four-2_2, .five-2_2, .six-3_2 {
+    top: 80%;
+    left: 20%; 
+}
+
+.two-2_2, .three-3_2, .four-4_2, .five-4_2, .six-6_2 {
+    top: 80%;
+    left: 80%; 
+}
+
+.six-2_2 {
+    top: 50%;
+    left: 20%; 
+}
+
+.six-5_2 {
+    top: 50%;
+    left: 80%; 
+}
+
+.dice_g_2{
+    position: absolute;
+    left: 55%;
+    top: 39%;
+    z-index: 10;
+}
+
+.dice_g_2.show {
     transition: none; /* Отключаем переход для показа выбранного числа */
 }

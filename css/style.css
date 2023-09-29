@@ -352,7 +352,7 @@ body {
     box-sizing: border-box;
 
     position: absolute;
-    left: 80.5%;
+    left: 74%;
 
     width: 135px;
     height: 210px;
@@ -365,7 +365,7 @@ body {
 .fish_img_1{
     position: absolute;
     top: 8%;
-    left: 82%;
+    left: 75.5%;
 
     width: 80px;
     height: 80px;
@@ -411,11 +411,11 @@ body {
 
 .rup_img_1{
     position: absolute;
-    /* top: 12%; */
-    left: 87.6%;
+    top: 1%;
+    left: 81.1%;
 
-    width: 220px;
-    height: 210px;
+    width: 215px;
+    height: 205px;
 
     z-index: 2;
 }
@@ -426,7 +426,7 @@ body {
     box-sizing: border-box;
 
     position: absolute;
-    left: 87.5%;
+    left: 80.8%;
     top: 23%;
 
     width: 220px;
@@ -439,7 +439,7 @@ body {
 
 .vp_2{
     position: absolute;
-    left: 92%;
+    left: 85%;
     top: 3%;
 
     width: 41px;
@@ -455,7 +455,7 @@ body {
     z-index: 2;
 }
 
-.green_2{
+/* .green_2{
     box-sizing: border-box;
 
     position: absolute;
@@ -477,13 +477,13 @@ body {
     width: 60px;
     height: 48.03px;
     z-index: 2;
-}
+} */
 
 .red_3{
     box-sizing: border-box;
 
     position: absolute;
-    left: 87.5%;
+    left: 80.8%;
     top: 36%;
 
     width: 220px;
@@ -498,7 +498,7 @@ body {
 .revol_img_3{
     position: absolute;
     top: 38%;
-    left: 91%;
+    left: 84%;
 
     width: 85px;
     height: 85px;
@@ -506,7 +506,7 @@ body {
     z-index: 2;
 }
 
-.green_3{
+/* .green_3{
     box-sizing: border-box;
 
     position: absolute;
@@ -528,13 +528,13 @@ body {
     width: 60px;
     height: 48.03px;
     z-index: 2;
-}
+} */
 
 .light_green{
     box-sizing: border-box;
 
     position: absolute;
-    left: 87.5%;
+    left: 80.8%;
     top: 48%;
 
     width: 220px;
@@ -548,7 +548,7 @@ body {
 .gar_img{
     position: absolute;
     top: 50%;
-    left: 91%;
+    left: 84%;
 
     width: 85px;
     height: 85px;
@@ -556,7 +556,7 @@ body {
     z-index: 2;
 }
 
-.yellow_2{
+/* .yellow_2{
     box-sizing: border-box;
 
     position: absolute;
@@ -578,9 +578,9 @@ body {
     width: 60px;
     height: 48.03px;
     z-index: 2;
-}
+} */
 
-.red_4{
+/* .red_4{
     box-sizing: border-box;
 
     position: absolute;
@@ -590,7 +590,6 @@ body {
     width: 220px;
     height: 62.45px;
 
-    /* background: linear-gradient(to right, #fff23d, 15%, #E54242); */
     background: #E54242;
     border: 3px solid #000000;
 }
@@ -606,13 +605,13 @@ body {
     z-index: 2;
 
     transform: rotate(-48deg);
-}
+} */
 
 .green_4{
     box-sizing: border-box;
 
     position: absolute;
-    left: 87.5%;
+    left: 80.8%;
     top: 61%;
 
     width: 220px;
@@ -626,7 +625,7 @@ body {
 .jackpot_img_4{
     position: absolute;
     top: 62%;
-    left: 91%;
+    left: 84%;
 
     width: 85px;
     height: 85px;
@@ -689,7 +688,7 @@ body {
 .bon_img_2{
     position: absolute;
     top: 73%;
-    left: 87.5%;
+    left: 80.8%;
 
     width: 220px;
     height: 210px;
@@ -703,7 +702,9 @@ body {
     box-sizing: border-box;
 
     position: absolute;
-    left: 80.5%;
+    /* left: 80.5%;
+    top: 73%; */
+    left: 73.8%;
     top: 73%;
 
     width: 135px;
@@ -716,8 +717,10 @@ body {
 
 .list{
     position: absolute;
+    /* top: 80%;
+    left: 82%; */
     top: 80%;
-    left: 82%;
+    left: 75%;
 
     width: 80px;
     height: 80px;
@@ -1316,7 +1319,7 @@ hr{
 .logo_2{
     position: absolute;
     top: 23%;
-    left: 79%;
+    left: 70%;
 
     width: 200px;
     height: 200px;
@@ -1566,7 +1569,7 @@ hr{
 .nams1{
     position: absolute;
     top: 47%;
-    left: 74%;
+    left: 71%;
 
     width: 98px;
     height: 34px;
@@ -1585,7 +1588,7 @@ hr{
 .nams2{
     position: absolute;
     top: 52%;
-    left: 74%;
+    left: 71%;
 
     width: 98px;
     height: 34px;
@@ -1604,7 +1607,7 @@ hr{
 .nams3{
     position: absolute;
     top: 57%;
-    left: 74%;
+    left: 71%;
 
     width: 98px;
     height: 34px;
@@ -1623,7 +1626,7 @@ hr{
 .nams4{
     position: absolute;
     top: 62%;
-    left: 74%;
+    left: 71%;
 
     width: 98px;
     height: 34px;
