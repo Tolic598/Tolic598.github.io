@@ -1,7 +1,7 @@
-Telegram.WebApp.ready();
+let tg = window.Telegram.WebApp;
 
-const initData = Telegram.WebApp.initData;
-const initDataUnsafe = Telegram.WebApp.initDataUnsafe;
+const initData = tg.initData;
+const initDataUnsafe = tg.initDataUnsafe;
 
 console.log(initData);
 console.log(initDataUnsafe);
