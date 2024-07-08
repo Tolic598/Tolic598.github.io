@@ -1,4 +1,4 @@
-<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
 Telegram.WebApp.ready();
 
 const initData = Telegram.WebApp.initData;
