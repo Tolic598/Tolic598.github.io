@@ -6,6 +6,9 @@ body, html {
     color: var(--tg-theme-text-color, #ffffff);
 }
 
+.head{
+    display: block;
+}
 
 @media (max-width: 600px) {
     h1 {
