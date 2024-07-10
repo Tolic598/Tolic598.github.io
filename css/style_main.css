@@ -7,7 +7,64 @@ body, html {
 }
 
 .head{
-    display: block;
+    display: flex;
+    margin-left: 10px;
+}
+
+.ph_png{
+    width: 32px;
+    height: 30px;
+    margin-top: 12px;
+}
+
+.phenix{
+    margin-left: 15px;
+}
+
+.bloc_1{
+    display: flex;
+    width: 82px;
+    height: 30px;
+    background-color: #484848;
+    border-radius: 15px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.nil_0{
+    height: 15px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.tickets{
+    margin-left: 45px;
+    width: 22px;
+    height: 22px;
+    margin-top: 3px;
+}
+
+.bloc_2{
+    display: flex;
+    width: 82px;
+    height: 30px;
+    background-color: #484848;
+    border-radius: 15px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.tron_png{
+    margin-left: 45px;
+    width: 22px;
+    height: 22px;
+    margin-top: 5px;
+}
+
+.nil_1{
+    height: 15px;
+    margin-top: 7px;
+    margin-left: 5px;
 }
 
 @media (max-width: 600px) {
