@@ -1,3 +1,4 @@
+/* Общие стили */
 body, html {
     margin: 0;
     padding: 0;
@@ -21,7 +22,7 @@ body, html {
     margin-left: 15px;
 }
 
-.bloc_1{
+.bloc_1, .bloc_2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,28 +34,10 @@ body, html {
     margin-left: 15px;
 }
 
-.tickets{
-    margin-left: 45px;
+.tickets, .tron_png{
     width: 22px;
     height: 22px;
-}
-
-.bloc_2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 82px;
-    height: 30px;
-    background-color: #484848;
-    border-radius: 15px;
-    margin-top: 12px;
-    margin-left: 15px;
-}
-
-.tron_png{
     margin-left: 45px;
-    width: 22px;
-    height: 22px;
 }
 
 .head_hed{
@@ -66,18 +49,13 @@ body, html {
     margin-left: 10px;
 }
 
-.nil_2{
+.nil_2, .Ph{
     height: 15px;
     margin-left: 30px;
     margin-top: 11px;
 }
 
-.Ph{
-    margin-left: 29px;
-    margin-top: 11px;
-}
-
-.bloc_3{
+.bloc_3, .bloc_4 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,265 +64,35 @@ body, html {
     height: 20px;
     width: 90px;
     margin-top: 10px;
-    margin-left: 15px;
 }
 
-.mined_0{
-    font-size: 14px;
-}
-
-.bloc_4{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000000;
-    border-radius: 20px;
-    height: 20px;
-    width: 90px;
-    margin-top: 10px;
+.bloc_4 {
     margin-left: 5px;
 }
 
-.bg{
+.mined_0, .day_0, .inv-ref {
+    font-size: 14px;
+}
+
+.bg, .bg_main {
     width: 320px;
     height: 362px;
-    /* border: solid; */
-    background-image: url('../img/Phenix_bg.png');
     background-size: cover;
     background-position: center; 
-}
-
-.clock{
-    width: 14px;
-    height: 16px;
-    margin-right: 10px;
-}
-
-.day_0{
-    font-size: 14px;
 }
 
 .main{
     text-align: center;
 }
 
-.text_0{
-    margin-top: 121px;
-}
-
-.total-balance{
+.total-balance, .progress_bar, .ref {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: -25px;
 }
 
-.Ph_ph{
-    margin-left: 5px;
-}
-
-.your_m{
-    margin-top: -15px;
-}
-
-.progress_bar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -25px;
-}
-
-.coins{
-    margin-right: 10px;
-}
-
-.nil_3{
-    margin-left: 10px;
-}
-
-.ref{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -25px;
-}
-
-.nil_4{
-    margin-right: 5px;
-}
-
-.polosa{
-    margin-left: 5px;
-}
-
-.nil_5{
-    margin-left: 5px;
-}
-
-.nil_6{
-    margin-left: 5px;
-}
-
-.polosa_0{
-    margin-left: 3px;
-}
-
-.inv-ref{
-    margin-top: -10px;
-    font-size: 14px;
-}
-
-.bg_main{
-    width: 320px;
-    height: 340px;
-    /* border: solid; */
-    background-size: cover;
-    background-position: center; 
-}
-
-.maine_base_0{
-    width: 300px;
-    height: 39px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10px;
-    border-radius: 18px;
-    background-color: #DE9800;
-}
-
-.rest-te{
-    font-size: 24px;
-    color: #ffffff;
-}
-
-.boost_0{
-    width: 24px;
-    height: 24px;
-    margin-left: 27px;
-}
-
-.information_0{
-    width: 300px;
-    height: 39px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10px;
-    border-radius: 18px;
-    border: 2px solid #FF73D4;
-    background: transparent;
-    color: #ffffff;
-    margin-top: 40px;
-}
-
-.fon_but{
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: #DE9700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 40px;
-}
-
-.inf_butt{
-    margin-left: 4px;
-    margin-top: 3px;
-}
-
-.upg_text_0{
-    font-size: 18px;
-    margin-top: 15px;
-    margin-right: 20px;
-}
-
-.boost_test_0{
-    font-size: 14px;
-    margin-top: -17px;
-    color: #ffffff;
-    filter: brightness(0.76);
-    margin-right: 80px;
-}
-
-.information_1{
-    width: 300px;
-    height: 39px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10px;
-    border-radius: 18px;
-    border: 2px solid #FF73D4;
-    background: transparent;
-    color: #ffffff;
-    margin-top: 20px;
-}
-
-.fon_but_0{
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: #DE9700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5px;
-}
-
-.upg_text_1{
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-.boost_test_1{
-    font-size: 14px;
-    margin-top: -17px;
-    color: #ffffff;
-    filter: brightness(0.76);
-    margin-left: 45px;
-}
-
-.information_2{
-    width: 300px;
-    height: 39px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10px;
-    border-radius: 18px;
-    border: 2px solid #FF73D4;
-    background: transparent;
-    color: #ffffff;
-    margin-top: 20px;
-}
-
-.fon_but_1{
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: #DE9700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.upg_text_2{
-    font-size: 18px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.boost_test_2{
-    font-size: 14px;
-    margin-top: -17px;
-    color: #ffffff;
-    filter: brightness(0.76);
-    margin-left: 40px;
-}
-
-footer{
+.footer{
     margin-top: 50px;
     background-color: rgba(207, 162, 0, 0.44);
     width: 301px;
@@ -353,60 +101,77 @@ footer{
     margin-left: 10px;
 }
 
-.bloc_5{
+.bloc_5, .bloc_6 {
     display: flex;
     width: 32px;
     height: 32px;
-}
-
-.min_1{
-    margin-left: 10px;
-}
-
-.earn_1{
-    margin-left: 20px;
-}
-
-.spin_1{
-    margin-left: 17px;
-}
-
-.wat_1{
-    margin-left: 30px;
-}
-
-.wall-1{
-    margin-left: 40px;
-}
-
-.bloc_6{
-    display: flex;
     font-size: 12px;
     margin-top: -10px;
 }
 
-.min_0{
-    margin-left: 10px;
-}
-
-.earn_0{
+.min_0, .earn_0, .spin_0, .wat_0, .wall-0 {
     margin-left: 19px;
 }
 
-.spin_0{
-    margin-left: 19px;
+.min_1, .earn_1, .spin_1, .wat_1, .wall-1 {
+    margin-left: 20px;
 }
 
-.wat_0{
-    margin-left: 19px;
+/* Медиазапросы для адаптации под различные устройства */
+
+/* Для больших экранов */
+@media (min-width: 1024px) {
+    .head_hed {
+        width: 600px;
+    }
+
+    .bg, .bg_main {
+        width: 640px;
+        height: 724px;
+    }
+
+    .footer {
+        width: 602px;
+    }
 }
 
-.wall-0{
-    margin-left: 19px;
+/* Для планшетов */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .head_hed {
+        width: 450px;
+    }
+
+    .bg, .bg_main {
+        width: 480px;
+        height: 544px;
+    }
+
+    .footer {
+        width: 452px;
+    }
 }
 
-@media (max-width: 600px) {
-    p {
-        font-size: 1em;
+/* Для мобильных устройств */
+@media (max-width: 767px) {
+    .head_hed {
+        width: 300px;
+    }
+
+    .bg, .bg_main {
+        width: 320px;
+        height: 362px;
+    }
+
+    .footer {
+        width: 301px;
+    }
+
+    .head, .phenix, .bloc_1, .bloc_2, .tickets, .tron_png, .nil_2, .Ph, .bloc_3, .bloc_4, .day_0, .inv-ref, .total-balance, .progress_bar, .ref, .main {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .bloc_1, .bloc_2, .bloc_3, .bloc_4, .footer, .bg, .bg_main {
+        width: 100%;
     }
 }
