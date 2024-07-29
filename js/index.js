@@ -53,12 +53,10 @@ ReactDOM.render(
 
         <div className = "bg_main">
             <div className = "maine_base">
-                <button className = "maine_base_0">
-                    <p className = "rest-te">Restart mine</p>
-                    <img src = "img/performance-boost.png" alt = "boost" className = "boost_0"/>
-                </button>
+                <p className = "rest-te">Restart mine</p>
+                <img src = "img/performance-boost.png" alt = "boost" className = "boost_0"/>
             </div>
-            <button className = "information_0">
+            <div className = "information_0">
                 <div className = "fon_but">
                     <img src = "img/information.png" alt = "information" className = "inf_butt"/>
                 </div>
@@ -66,8 +64,8 @@ ReactDOM.render(
                     <p className = "upg_text_0">Upgrade mining cap</p>
                     <p className = "boost_test_0">Boostto 7.5 WP</p>
                 </div>
-            </button>
-            <button className = "information_1">
+            </div>
+            <div className = "information_1">
                 <div className = "fon_but_0">
                     <img src = "img/boost.png" alt = "boost"/>
                 </div>
@@ -75,8 +73,8 @@ ReactDOM.render(
                     <p className = "upg_text_1">Boost mining rate</p>
                     <p className = "boost_test_1">5X Mining rate for 30 minutes</p>
                 </div>
-            </button>
-            <button className = "information_2">
+            </div>
+            <div className = "information_2">
                 <div className = "fon_but_1">
                     <img src = "img/plane-tickets.png" alt = "tickets"/>
                 </div>
@@ -84,11 +82,11 @@ ReactDOM.render(
                     <p className = "upg_text_2">Need more tickets?</p>
                     <p className = "boost_test_2">Finish our tasks and get more</p>
                 </div>
-            </button>
+            </div>
         </div>
         <footer>
-            <div className = "bloc_5">
-                <img src = "img/mining.png" alt = "mining" className = "min_1" onClick={() => window.location.href = "/site/mining.html"}/>
+            {/* <div className = "bloc_5">
+                <img src = "img/mining.png" alt = "mining" className = "min_1 " onClick={() => window.location.href = "/site/mining.html"}/>
                 <img src = "img/profit.png" alt = "profit" className = "earn_1" onClick={() => window.location.href = "/site/earn.html"}/>
                 <img src = "img/casino.png" alt = "casino" className = "spin_1" onClick={() => window.location.href = "/site/spin.html"}/>
                 <img src = "img/wealth-airdrop.png" alt = "airdrop" className = "wat_1" onClick={() => window.location.href = "/site/watdrop.html"}/>
@@ -100,6 +98,28 @@ ReactDOM.render(
                 <p className = "spin_0" onClick={() => window.location.href = "/site/spin.html"}>SPIN</p>
                 <p className = "wat_0" onClick={() => window.location.href = "/site/watdrop.html"}>WATDROP</p>
                 <p className = "wall-0" onClick={() => window.location.href = "/site/wallet.html"}>WALLET</p>
+            </div> */}
+            <div className="bloc_5">
+                <div className="item">
+                    <img src="img/mining.png" alt="mining" className="min_1" onClick={() => window.location.href = "/site/mining.html"} />
+                    <p className="min_0" onClick={() => window.location.href = "/site/mining.html"}>MINE</p>
+                </div>
+                <div className="item">
+                    <img src="img/profit.png" alt="profit" className="earn_1" onClick={() => window.location.href = "/site/earn.html"} />
+                    <p className="earn_0" onClick={() => window.location.href = "/site/earn.html"}>EARN</p>
+                </div>
+                <div className="item">
+                    <img src="img/casino.png" alt="casino" className="spin_1" onClick={() => window.location.href = "/site/spin.html"} />
+                    <p className="spin_0" onClick={() => window.location.href = "/site/spin.html"}>SPIN</p>
+                </div>
+                <div className="item">
+                    <img src="img/wealth-airdrop.png" alt="airdrop" className="wat_1" onClick={() => window.location.href = "/site/watdrop.html"} />
+                    <p className="wat_0" onClick={() => window.location.href = "/site/watdrop.html"}>WATDROP</p>
+                </div>
+                <div className="item">
+                    <img src="img/wallet.png" alt="wallet" className="wall_1" onClick={() => window.location.href = "/site/wallet.html"} />
+                    <p className="wall_0" onClick={() => window.location.href = "/site/wallet.html"}>WALLET</p>
+                </div>
             </div>
         </footer>
     </div>
