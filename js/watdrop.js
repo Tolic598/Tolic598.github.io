@@ -1,4 +1,5 @@
-ReactDOM.render(
+function App() {
+    return (
     <div>
         <div className = "head">
             <img src="img/phoenix.png" alt="phoenix" className = "ph_png"/>
@@ -44,20 +45,32 @@ ReactDOM.render(
             <button className = "consul_0">Conclusion</button>
         </div>
         <footer>
-            <div className = "bloc_5">
-                <img src = "img/mining.png" alt = "mining" className = "min_1" onClick={() => window.location.href = "/site/mining.html"}/>
-                <img src = "img/profit.png" alt = "profit" className = "earn_1" onClick={() => window.location.href = "/site/earn.html"}/>
-                <img src = "img/casino.png" alt = "casino" className = "spin_1" onClick={() => window.location.href = "/site/spin.html"}/>
-                <img src = "img/wealth-airdrop.png" alt = "airdrop" className = "wat_1" onClick={() => window.location.href = "/site/watdrop.html"}/>
-                <img src = "img/wallet.png" alt = "wallet" className = "wall-1" onClick={() => window.location.href = "/site/wallet.html"}/>
-            </div>
-            <div className = "bloc_6">
-                <p className = "min_0" onClick={() => window.location.href = "/site/mining.html"}>MINE</p>
-                <p className = "earn_0" onClick={() => window.location.href = "/site/earn.html"}>EARN</p>
-                <p className = "spin_0" onClick={() => window.location.href = "/site/spin.html"}>SPIN</p>
-                <p className = "wat_0" onClick={() => window.location.href = "/site/watdrop.html"}>WATDROP</p>
-                <p className = "wall-0" onClick={() => window.location.href = "/site/wallet.html"}>WALLET</p>
+            <div className="bloc_5">
+                <div className="item">
+                    <img src="img/mining.png" alt="mining" className="min_1" onClick={() => window.location.href = "/site/mining.html"} />
+                    <p className="min_0" onClick={() => window.location.href = "/site/mining.html"}>MINE</p>
+                </div>
+                <div className="item">
+                    <img src="img/profit.png" alt="profit" className="earn_1" onClick={() => window.location.href = "/site/earn.html"} />
+                    <p className="earn_0" onClick={() => window.location.href = "/site/earn.html"}>EARN</p>
+                </div>
+                <div className="item">
+                    <img src="img/casino.png" alt="casino" className="spin_1" onClick={() => window.location.href = "/site/spin.html"} />
+                    <p className="spin_0" onClick={() => window.location.href = "/site/spin.html"}>SPIN</p>
+                </div>
+                <div className="item">
+                    <img src="img/wealth-airdrop.png" alt="airdrop" className="wat_1" onClick={() => window.location.href = "/site/watdrop.html"} />
+                    <p className="wat_0" onClick={() => window.location.href = "/site/watdrop.html"}>WATDROP</p>
+                </div>
+                <div className="item">
+                    <img src="img/wallet.png" alt="wallet" className="wall_1" onClick={() => window.location.href = "/site/wallet.html"} />
+                    <p className="wall_0" onClick={() => window.location.href = "/site/wallet.html"}>WALLET</p>
+                </div>
             </div>
         </footer>
     </div>
-,document.getElementById("app"))
+    );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('app'));
+root.render(<App />);
